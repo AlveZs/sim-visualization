@@ -1,0 +1,8 @@
+class Variables:
+    PADDING = 20
+    SPACING = 20
+    BAR_HEIGHT = 10
+    FIG_WIDTH = 18.5
+    FIG_HEIGHT = 10.5
+    START_SIM = 0
+    END_SIM = 15
