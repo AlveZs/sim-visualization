@@ -11,7 +11,7 @@ print(files)
 
 for name in files: 
     current_file = open(name, 'r')
-    duration, processors_number, real_processors = [int(n) for n in current_file.readline().split()]
+    duration, processors_number, real_processors, tasks_number = [int(n) for n in current_file.readline().split()]
     execution_log = json.loads(current_file.readline())
     filename = os.path.basename(name).split('.')[0]
 
@@ -21,6 +21,7 @@ for name in files:
         execution_log = list(execution_log),
         processors_number = processors_number,
         real_processors = real_processors,
+        tasks_number = tasks_number,
         colors = colors
     )
 
