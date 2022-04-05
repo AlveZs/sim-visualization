@@ -17,4 +17,4 @@
 
 # Variables
 
-change the `variables.py` class attributes for customize chart
+create the `variables.py` file (use `variables.py.example` as example) attributes for customize chart
